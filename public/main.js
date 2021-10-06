@@ -7,10 +7,6 @@ let chatPage = document.querySelector('#chatPage');
 let loginInput = document.querySelector('#loginNameInput');
 let textInput = document.querySelector('#chatTextInput');
 
-window.onload = () => {
-    //
-    chatPage.style.height = document.height;
-}
 
 loginPage.style.display = 'flex';
 chatPage.style.display = 'none';
